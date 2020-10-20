@@ -1,2 +1,5 @@
-# NISC-Imputation
-NISC Imputation
+NISC: Accurate Clustering through Neural Network-Imputation for Single-Cell RNA Sequencing Data with High Sparsity
+
+NISC Imputation is a method based neural network to impute Single-cell RNA sequencing data.
+
+Abstract: Single-cell RNA sequencing aims to reveal the transcriptome diversity in heterogeneous cell populations since it allows researchers to study gene expression at single-cell resolution. Recent advances in technologies have made it possible to transcriptional profile tens of thousands of individual cells simultaneously. However, this technology raises numbers of missing values (referred “dropouts”) caused by failures in amplification during the reverse-transcription of sequencing or low RNA capture rate and shallow sequencing. Some scRNA-seq data can reach more than 90\% sparsity. The high sparsity can be an obstacle for the downstream analysis and most existing imputation methods cannot handle the data with extremely high sparsity very well. In this paper/project, we introduce NISC (Neural Network-based Imputation for scRNA-seq data), an imputation approach that uses autoencoder with a novel loss function to impute the dropouts in scRNA-seq data. A systematic evaluation shows that NISC is an effective imputation method on high dimensional and highly sparse scRNA-seq data and consequently improves clustering of cell subpopulations.
